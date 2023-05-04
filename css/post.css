@@ -114,7 +114,7 @@
 }
 .tags__item:hover {
     color: var(--white);
-    background: var(--gold);
+    background: var(--gold)`;
 }
 .widget-tags{
     padding-bottom: 50px;
