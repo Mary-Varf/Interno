@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Interno</title>
+    <link rel="stylesheet" href="css/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/blog.css">
+    <link rel="stylesheet" href="css/post.css">
+</head>
+<body>
+<header>
+    <div class="container">
+        <div class="header">
+            <a href='#' class="logo"><div class="logo_name">Interno</div></a>
+
+            <div class="burger" id="burger"><span class="burger__line"></span></div>
+            <div class="header__nav-close nav-close">
+                <button class="close-btn"></button>
+            </div>
+
+            <nav class="header__nav">
+                <ul class="header__list">
+                    <li class="header__item"><a href="#" class="header__link">Home</a></li>
+                    <li class="header__item"><a href="#" class="header__link">Our Projects</a></li>
+                    <li class="header__item"><a href="#" class="header__link">Blog</a></li>
+                    <li class="header__item"><a href="#" class="header__link">Contact</a></li>
+                    <li class="header__item"><button class="header__search" id="search-btn">
+                        <img src="img/search.svg" alt="search">
+                    </button></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</header>
+
+<div class="page error">
+    <div class="error__thumb">
+        <img src="img/errorBg.jpg" alt="" class="error__bg">
+    </div>
+
+    <div class="container">
+        <div class="error__content">
+            <span class="error__number">404</span>
+            <p class="error__text">We are sorry, but the page you requested was not found</p>
+            <button class="primary-btn">Back To Home</button>
+        </div>
+    </div>
+</div>
+
+
+<div class="overlay" id="overlay"></div>
+
+<div class="modal-search">
+    <div class="container">
+        <div class="modal-search__content">
+            <input type="text" class="modal-search__input" placeholder="Search">
+            <div class="model-search__btns">
+                <button class="right-arrow-triangle-btn" id="submit_btn" type="submit"></button>
+                <button class="close-btn" id="close-btn"></button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="script/swiper-bundle.min.js"></script>
+<script src="script/script.js"></script>
+</body>
+</html>

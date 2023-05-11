@@ -967,6 +967,39 @@ a {
 .contacts .networks__item:hover{
     background-color: var(--white);
 }
+
+.error {
+    position: relative;
+    margin: 0;
+}
+.error__thumb {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: calc(100vh - 128px);
+    border-bottom-left-radius: 320px;
+    overflow: hidden;
+}
+.error__content {
+    margin-top: 200px;
+    max-width: 570px;
+    text-align: start;
+    font-family: 'DM Serif Display', serif;
+}
+.error__number {
+    color: var(--gold);
+    font-size: 250px;
+    margin-bottom: 15px;
+    line-height: 0.8;
+}
+.error__text {
+    font-size: 35px;
+    margin-bottom: 23px;
+}
+.error__content .primary-btn {
+    display: flex;
+    justify-self: flex-start;
+}
 @media(max-width: 1200px) {
     .articles {
         grid-template-columns: 1fr 1fr;
