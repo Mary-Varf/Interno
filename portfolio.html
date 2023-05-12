@@ -8,26 +8,27 @@
     <title>Interno</title>
     <link rel="stylesheet" href="css/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/blog.css">
-    <link rel="stylesheet" href="css/post.css">
 </head>
 <body>
 <header>
     <div class="container">
         <div class="header">
-            <a href='#' class="logo"><div class="logo_name">Interno</div></a>
+            <a href='index.html' class="logo">
+                <div class="logo__icon"></div>
+                <div class="logo__name">Interno</div>
+            </a>
 
-            <div class="burger" id="burger"><span class="burger__line"></span></div>
+            <div class="burger" id="burger"></div>
             <div class="header__nav-close nav-close">
                 <button class="close-btn"></button>
             </div>
 
             <nav class="header__nav">
                 <ul class="header__list">
-                    <li class="header__item"><a href="#" class="header__link">Home</a></li>
-                    <li class="header__item"><a href="#" class="header__link">Our Projects</a></li>
-                    <li class="header__item"><a href="#" class="header__link">Blog</a></li>
-                    <li class="header__item"><a href="#" class="header__link">Contact</a></li>
+                    <li class="header__item"><a href="index.html" class="header__link">Home</a></li>
+                    <li class="header__item"><a href="portfolio.html" class="header__link">Our Projects</a></li>
+                    <li class="header__item"><a href="blog.html" class="header__link">Blog</a></li>
+                    <li class="header__item"><a href="contact.html" class="header__link">Contact</a></li>
                     <li class="header__item"><button class="header__search" id="search-btn">
                         <img src="img/search.svg" alt="search">
                     </button></li>
@@ -38,7 +39,7 @@
 </header>
 
 <div class="thumb">
-    <img src="img/blogBg.jpg" alt="blog" class="thumb__img">
+    <img class="tabs-content__img" src="img/blogBg.jpg" alt="blog" class="thumb__img">
 
     <div class="thumb__info">
         <h2 class="h2-text">Our Project</h2>
@@ -59,54 +60,62 @@
         </div>
 
         <div class="tabs-content">
-            <div class="tabs-content__item" id="tab1" style="display: grid;">
-                <div class="tabs_content__thumb">
-                    <img src="img/Photo1.png" alt="">
-                </div>
-                <div class="tabs_content__thumb">
-                    <img src="img/Photo2.png" alt="">
-                </div>
-                <div class="tabs_content__thumb">
-                    <img src="img/Photo3.png" alt="">
-                </div>
-                <div class="tabs_content__thumb">
-                    <img src="img/Photo4.png" alt="">
-                </div>
-                <div class="tabs_content__thumb">
-                    <img src="img/Photo5.png" alt="">
-                </div>
-                <div class="tabs_content__thumb">
-                    <img src="img/Photo6.png" alt="">
+            <div class="tabs-content__item" id="tab1" style="display: block;">
+                <div class="tabs-content__box">
+                    <div class="tabs-content__thumb">
+                        <img class="tabs-content__img" src="img/Photo1.png" alt="">
+                    </div>
+                    <div class="tabs-content__thumb">
+                        <img class="tabs-content__img" src="img/Photo2.png" alt="">
+                    </div>
+                    <div class="tabs-content__thumb">
+                        <img class="tabs-content__img" src="img/Photo3.png" alt="">
+                    </div>
+                    <div class="tabs-content__thumb">
+                        <img class="tabs-content__img" src="img/Photo4.png" alt="">
+                    </div>
+                    <div class="tabs-content__thumb">
+                        <img class="tabs-content__img" src="img/Photo5.png" alt="">
+                    </div>
+                    <div class="tabs-content__thumb">
+                        <img class="tabs-content__img" src="img/Photo6.png" alt="">
+                    </div>
                 </div>
             </div>
             <div class="tabs-content__item" id="tab2">
-                <div class="tabs_content__thumb">
-                    <img src="img/Photo4.png" alt="">
-                </div>
-                <div class="tabs_content__thumb">
-                    <img src="img/Photo5.png" alt="">
-                </div>
-                <div class="tabs_content__thumb">
-                    <img src="img/Photo6.png" alt="">
+                <div class="tabs-content__box">
+                    <div class="tabs-content__thumb">
+                        <img class="tabs-content__img" src="img/Photo4.png" alt="">
+                    </div>
+                    <div class="tabs-content__thumb">
+                        <img class="tabs-content__img" src="img/Photo5.png" alt="">
+                    </div>
+                    <div class="tabs-content__thumb">
+                        <img class="tabs-content__img" src="img/Photo6.png" alt="">
+                    </div>
                 </div>
             </div>
             <div class="tabs-content__item" id="tab3">
-                <div class="tabs_content__thumb">
-                    <img src="img/Photo3.png" alt="">
-                </div>
-                <div class="tabs_content__thumb">
-                    <img src="img/Photo3.png" alt="">
-                </div>
-                <div class="tabs_content__thumb">
-                    <img src="img/Photo3.png" alt="">
+                <div class="tabs-content__box">
+                    <div class="tabs-content__thumb">
+                        <img class="tabs-content__img" src="img/Photo3.png" alt="">
+                    </div>
+                    <div class="tabs-content__thumb">
+                        <img class="tabs-content__img" src="img/Photo3.png" alt="">
+                    </div>
+                    <div class="tabs-content__thumb">
+                        <img class="tabs-content__img" src="img/Photo3.png" alt="">
+                    </div>
                 </div>
             </div>
             <div class="tabs-content__item" id="tab4">
-                <div class="tabs_content__thumb">
-                    <img src="img/Photo4.png" alt="">
-                </div>
-                <div class="tabs_content__thumb">
-                    <img src="img/Photo3.png" alt="">
+                <div class="tabs-content__box">
+                    <div class="tabs-content__thumb">
+                        <img class="tabs-content__img" src="img/Photo4.png" alt="">
+                    </div>
+                    <div class="tabs-content__thumb">
+                        <img class="tabs-content__img" src="img/Photo3.png" alt="">
+                    </div>
                 </div>
             </div>
         </div>
@@ -116,7 +125,10 @@
 <footer>
     <div class="footer bg">
         <div class="container">
-            <a href='#' class="logo"><div class="logo_name">Interno</div></a>
+            <a href='index.html' class="logo">
+                <div class="logo__icon"></div>
+                <div class="logo__name">Interno</div>
+            </a>
 
             <address class="footer__address">
                 <p class="footer__item">
